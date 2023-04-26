@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 18px;
+  gap: 10px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button:hover {
+  background-color: #600a87;
+}
+
+.button:active {
+  background-color: #520b73;
+}
